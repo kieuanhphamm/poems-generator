@@ -7,42 +7,44 @@
     <title>AI Poems Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poems Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Poems Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem
-        <br />
-        the poem
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem
+          <br />
+          the poem
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by Kieu Anh Pham and is
-      <a
-        href="https://github.com/kieuanhphamm/poems-generator.git"
-        target="_blank"
-      >
-        open-sourced on Github</a
-      >
-      and is hosted on
-      <a href="https://ai-poems-generator-by-kap.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
-
+      <footer>
+        This AI project was coded by Kieu Anh Pham and is
+        <a
+          href="https://github.com/kieuanhphamm/poems-generator.git"
+          target="_blank"
+        >
+          open-sourced on Github</a
+        >
+        and is hosted on
+        <a href="https://ai-poems-generator-by-kap.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
